@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         int price = 50_000;
-        int x = 20;
-        int bonus = price / x;
-System.out.println("Количество начисленных миль за купленный билет: " + bonus);
+        int rubles_mile = 20;
+        int bonus_mile = price / rubles_mile;
+        System.out.println("Количество начисленных миль за купленный билет: " + bonus_mile);
+
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
